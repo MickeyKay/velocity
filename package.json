@@ -1,0 +1,36 @@
+{
+  "name": "velocity",
+  "version": "0.0.1",
+  "description": "Automated performance testing toolkit.",
+  "main": "lib/velocity.js",
+  "bin": {
+    "run-lighthouse-test": "./bin/lighthouse.sh"
+  },
+  "scripts": {
+    "start": "velocity",
+    "wpt": "./bin/webpagetest.sh || true",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MickeyKay/velocity"
+  },
+  "author": "Mickey Kay <mickeyskay@gmail.com> (http://mickeykaycreative.com/)",
+  "license": "GPL2+",
+  "bugs": {
+    "url": "https://github.com/MickeyKay/velocity/issues"
+  },
+  "homepage": "https://github.com/MickeyKay/velocity",
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "lighthouse": "^1.4.1",
+    "ora": "^0.4.1",
+    "perfbudget": "0.0.9",
+    "sanitize-filename": "^1.6.1",
+    "slug": "^0.9.1",
+    "url-parse": "^1.1.7",
+    "webpagetest": "^0.3.4",
+    "webpagetest-mapper": "^1.0.1",
+    "write": "^0.3.2"
+  }
+}
