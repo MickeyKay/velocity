@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/MickeyKay/velocity/issues"
   },
-  "homepage": "https://github.com/MickeyKay/velocity",
+  "homepage": "https://github.com/MickeyKay/velocityd",
   "dependencies": {
     "dateformat": "^2.0.0",
     "lighthouse": "^1.4.1",
